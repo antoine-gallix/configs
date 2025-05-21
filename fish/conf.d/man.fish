@@ -1,4 +1,4 @@
-# if status is-interactive; and command -q bat
-#     echo yeah
-#     set -x MANPAGER bat
-# end
+if status is-interactive; and command -q bat
+    # use bat in plaintext mode for wrapping
+    set -x MANPAGER "bat -p"
+end
