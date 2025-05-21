@@ -1,0 +1,2 @@
+cp -rv ~/.config/fish .
+cp -v ~/.lesskey .
